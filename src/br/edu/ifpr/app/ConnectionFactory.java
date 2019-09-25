@@ -11,6 +11,7 @@ public class ConnectionFactory {
         try {
             //Class.forName("com.mysql.jdbc.Driver");
             DriverManager.registerDriver(new com.mysql.jdbc.Driver()); //Essa linha foi a diferença
+            //testando arquivo
             return DriverManager.getConnection("jdbc:mysql://localhost/fj21", "root", "rootadisid");
 
         } catch(SQLException e) {
