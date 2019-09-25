@@ -15,6 +15,7 @@
     <%--	comentário em JSP aqui: nossa primeira página JSP --%>
     <% String mensagem = "Bem vindo ao sistema de agenda do FJ-21!"; %>
     <%-- out.println (mensagem); --%>
+  //Oi
     <br	/>
     <% String desenvolvido = "Desenvolvido por	Jefferson Chaves";%>
     <%=	desenvolvido %>
